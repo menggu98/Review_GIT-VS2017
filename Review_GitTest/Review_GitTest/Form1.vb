@@ -15,6 +15,6 @@ Partial Public Class Form1
     End Sub
 
     Private Sub SimpleButton2_Click(sender As Object, e As EventArgs) Handles SimpleButton2.Click
-        MsgBox("GIT TEST")
+        MsgBox("GIT TEST2")
     End Sub
 End Class
