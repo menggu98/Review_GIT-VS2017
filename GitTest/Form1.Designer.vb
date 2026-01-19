@@ -103,10 +103,10 @@
         '
         Me.LabelControl4.Location = New System.Drawing.Point(12, 109)
         Me.LabelControl4.Name = "LabelControl4"
-        Me.LabelControl4.Size = New System.Drawing.Size(305, 18)
+        Me.LabelControl4.Size = New System.Drawing.Size(264, 18)
         Me.LabelControl4.StyleController = Me.LayoutControl1
         Me.LabelControl4.TabIndex = 1
-        Me.LabelControl4.Text = "3. Git에서 프로젝트 내려받고 다른 Branch로 Push"
+        Me.LabelControl4.Text = "4. 각각의 브랜치에서 작업한 내용 병합 진행"
         '
         'Root
         '
