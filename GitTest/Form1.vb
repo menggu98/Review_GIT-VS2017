@@ -11,6 +11,6 @@ Partial Public Class Form1
     End Sub
 
     Private Sub SimpleButton1_Click(sender As Object, e As EventArgs) Handles SimpleButton1.Click
-        XtraMessageBox.Show("🚧 클릭 이벤트 생성", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        XtraMessageBox.Show("🚧 클릭 이벤트 생성(다시)", "알림", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
 End Class
