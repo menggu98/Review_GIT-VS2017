@@ -28,12 +28,12 @@
         Me.LabelControl1 = New DevExpress.XtraEditors.LabelControl()
         Me.SimpleButton1 = New DevExpress.XtraEditors.SimpleButton()
         Me.LabelControl2 = New DevExpress.XtraEditors.LabelControl()
+        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.Root = New DevExpress.XtraLayout.LayoutControlGroup()
         Me.LayoutControlItem1 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.EmptySpaceItem1 = New DevExpress.XtraLayout.EmptySpaceItem()
         Me.LayoutControlItem2 = New DevExpress.XtraLayout.LayoutControlItem()
         Me.LayoutControlItem3 = New DevExpress.XtraLayout.LayoutControlItem()
-        Me.LabelControl3 = New DevExpress.XtraEditors.LabelControl()
         Me.LayoutControlItem4 = New DevExpress.XtraLayout.LayoutControlItem()
         CType(Me.LayoutControl1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.LayoutControl1.SuspendLayout()
@@ -86,6 +86,15 @@
         Me.LabelControl2.TabIndex = 1
         Me.LabelControl2.Text = "2. Git Repo에 프로젝트 열기"
         '
+        'LabelControl3
+        '
+        Me.LabelControl3.Location = New System.Drawing.Point(12, 87)
+        Me.LabelControl3.Name = "LabelControl3"
+        Me.LabelControl3.Size = New System.Drawing.Size(305, 18)
+        Me.LabelControl3.StyleController = Me.LayoutControl1
+        Me.LabelControl3.TabIndex = 1
+        Me.LabelControl3.Text = "3. Git에서 프로젝트 내려받고 다른 Branch로 Push"
+        '
         'Root
         '
         Me.Root.EnableIndentsWithoutBorders = DevExpress.Utils.DefaultBoolean.[True]
@@ -130,15 +139,6 @@
         Me.LayoutControlItem3.Size = New System.Drawing.Size(423, 22)
         Me.LayoutControlItem3.TextSize = New System.Drawing.Size(0, 0)
         Me.LayoutControlItem3.TextVisible = False
-        '
-        'LabelControl3
-        '
-        Me.LabelControl3.Location = New System.Drawing.Point(12, 87)
-        Me.LabelControl3.Name = "LabelControl3"
-        Me.LabelControl3.Size = New System.Drawing.Size(305, 18)
-        Me.LabelControl3.StyleController = Me.LayoutControl1
-        Me.LabelControl3.TabIndex = 1
-        Me.LabelControl3.Text = "3. Git에서 프로젝트 내려받고 다른 Branch로 Push"
         '
         'LayoutControlItem4
         '
